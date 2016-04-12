@@ -18,9 +18,9 @@ public class XORNeuralNetwork {
 	
 	public XORNeuralNetwork(double learningCons)
 	{
-		weight13 = -1 + 2*generator.nextDouble();
-		weight14 = -1 + 2*generator.nextDouble();
-		weight23 = -1 + 2*generator.nextDouble();
+	    weight13 = -1 + 2*generator.nextDouble();
+	    weight14 = -1 + 2*generator.nextDouble();
+	    weight23 = -1 + 2*generator.nextDouble();
 	    weight24 = -1 + 2*generator.nextDouble();
 	    weight35 = -1 + 2*generator.nextDouble();
 	    weight45 = -1 + 2*generator.nextDouble();
